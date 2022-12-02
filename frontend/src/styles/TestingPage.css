@@ -12,7 +12,7 @@
     width:55vw;
 }
 
-li {
+li.tile {
     color:black;
     font-size:70px;
     padding:30px;
@@ -45,7 +45,7 @@ ul {
 li>input:checked+label {
     /* background-color: #8A2BE2; */
     color:#8A2BE2;
-    
+
 }
 
 .i-list label {
