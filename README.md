@@ -9,4 +9,4 @@ MBTI별 영화 장르 추천 서비스
 |[권세원](https://github.com/5ewon06)|[김동환](https://github.com/gidskql6671)|[정현욱](https://github.com/KirschX)|[현상혁](https://github.com/gmelon)|
 
 ## Git Strategy
-[Git Strategy](https://github.com/gidskql6671/mbti-movie/wiki/Git-Strategy)
+[Git Strategy 위키](https://github.com/gidskql6671/mbti-movie/wiki/Git-Strategy)
