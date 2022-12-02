@@ -22,6 +22,9 @@ public class Genre {
     @OneToMany(mappedBy = "genre")
     private List<GenreMbti> genreMbti = new ArrayList<>();
 
+    @OneToMany(mappedBy = "genre")
+    private List<Movie> movies = new ArrayList<>();
+
     @Builder
     public Genre(String name) {
         this.name = name;
