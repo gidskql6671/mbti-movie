@@ -1,0 +1,40 @@
+* {
+    margin:0px;
+}
+
+.FP-container {
+    width:100vw;
+    height:100vh;
+    background-color: #8A2BE2;
+}
+
+.FP-box {
+    width:40vw;
+    height: 95vh;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.buttons {
+    width:300px;
+    margin:50px auto;
+}
+
+.test-start,
+.result-list {
+    width:100%;
+    background-color: #2F2D4F;
+    padding:20px;
+    border-radius: 50px;
+    margin:5px auto;
+}
+
+.logo {
+    margin:100px auto;
+}
