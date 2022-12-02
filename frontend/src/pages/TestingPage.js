@@ -12,19 +12,19 @@ const TestingPage = () => {
             <div className="list-box">
                 <div className="list-div">
                     <ul className="e-list">
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="E" name="EI" onClick={()=> setEI('E')}/>
                             <label htmlFor="E">E</label>
                         </li>
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="S" name="SN" onClick={()=> setSN('S')}/>
                             <label htmlFor="S">S</label>
                         </li>
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="T" name="TF" onClick={()=> setTF('T')}/>
                             <label htmlFor="T">T</label>
                         </li>
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="J" name="JP" onClick={()=> setJP('J')}/>
                             <label htmlFor="J">J</label>
                         </li>
@@ -32,19 +32,19 @@ const TestingPage = () => {
                 </div>
                 <div className="list-div">
                     <ul className="i-list">
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="I" name="EI" onClick={()=> setEI('I')}/>
                             <label htmlFor="I">I</label>
                         </li>
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="N" name="SN" onClick={()=> setSN('N')}/>
                             <label htmlFor="N">N</label>
                         </li>
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="F" name="TF" onClick={()=> setTF('F')}/>
                             <label htmlFor="F">F</label>
                         </li>
-                        <li>
+                        <li class="tile">
                             <input type="radio" className="hide" id="P" name="JP" onClick={()=> setJP('P')}/>
                             <label htmlFor="P">P</label>
                         </li>
@@ -54,12 +54,15 @@ const TestingPage = () => {
             <div>
                 <div className="result-box">
                     <ul className="result">
-                        <li>{EI}</li>
-                        <li>{SN}</li>
-                        <li>{TF}</li>
-                        <li>{JP}</li>
+                        <li class="tile">{EI}</li>
+                        <li class="tile">{SN}</li>
+                        <li class="tile">{TF}</li>
+                        <li class="tile">{JP}</li>
                     </ul>
-                    <Link to="Result"><button>SHOW RESULT</button></Link>
+                    <Link to="Result"
+                        state= {{ mbti: `${EI}${SN}${TF}${JP}` }}>
+                            <button>SHOW RESULT</button>
+                    </Link>
                 </div>
             </div>
         </div>

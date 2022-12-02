@@ -5,3 +5,11 @@
     color:white;
     font-size:40px;
 }
+
+li.movie {
+    background-color: #4F4D6F;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
