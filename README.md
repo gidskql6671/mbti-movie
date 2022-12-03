@@ -12,4 +12,4 @@ MBTI별 영화 장르 추천 서비스
 [Git Strategy 위키](https://github.com/gidskql6671/mbti-movie/wiki/Git-Strategy)
 
 ## API Documents
-[API Documents 위키](https://github.com/gidskql6671/mbti-movie/wiki/API-Documentsgi)
+[API Documents 위키](https://github.com/gidskql6671/mbti-movie/wiki/API-Documents)
